@@ -6,6 +6,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+## Show Multi Router Outlet Feature
+
+Navigate to `http://localhost:4200/(second:second//first:first)`. By navigating to this url firstComponent will be filled in firstRouterOutlet and the secondComponent will be filled in secondRouterOutlet
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
