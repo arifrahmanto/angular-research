@@ -6,9 +6,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Show Multi Router Outlet Feature
+## Show Lazy Loading Outlet Feature
 
-Navigate to `http://localhost:4200/(second:second//first:first)`. By navigating to this url firstComponent will be filled in firstRouterOutlet and the secondComponent will be filled in secondRouterOutlet
+Navigate to `http://localhost:3000/mymodule/(first:me//second:you)`. By navigating to this url the components in mymodule will be loaded only when it's called
 
 ## Code scaffolding
 

@@ -3,10 +3,11 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-import { AppRoutingModule } from './app-routing.module';
+import { mainRouter } from './app-routing.module';
 import { FirstComponent } from './first-component/first-component.component';
 import { SecondComponent } from './second-component/second-component.component';
 import { MyRouterOutletComponent } from './my-router-outlet/my-router-outlet.component';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
@@ -14,11 +15,12 @@ import { MyRouterOutletComponent } from './my-router-outlet/my-router-outlet.com
     AppComponent,
     FirstComponent,
     SecondComponent,
-    MyRouterOutletComponent
+    MyRouterOutletComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    mainRouter
   ],
   providers: [],
   bootstrap: [AppComponent]
