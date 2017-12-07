@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { FirstComponent } from './first-component/first-component.component';
 import { SecondComponent } from './second-component/second-component.component';
+import { MyRouterOutletComponent } from './my-router-outlet/my-router-outlet.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     FirstComponent,
-    SecondComponent
+    SecondComponent,
+    MyRouterOutletComponent
   ],
   imports: [
     BrowserModule,
