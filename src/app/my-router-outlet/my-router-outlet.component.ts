@@ -8,7 +8,6 @@ import { Observable } from 'rxjs/Observable';
   styleUrls: ['./my-router-outlet.component.css']
 })
 export class MyRouterOutletComponent implements OnInit {
-  @Input() routerName = 'test';
 
   constructor(route: ActivatedRoute) {
     const url: Observable<any> = route.url;
